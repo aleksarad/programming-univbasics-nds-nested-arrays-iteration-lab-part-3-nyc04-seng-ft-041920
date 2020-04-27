@@ -8,6 +8,7 @@ def join_nested_strings(arr)
       if arr[i][j].class == String 
         newArr.push(arr[i][j])
       end
+      j += 1
     end
   end
   
