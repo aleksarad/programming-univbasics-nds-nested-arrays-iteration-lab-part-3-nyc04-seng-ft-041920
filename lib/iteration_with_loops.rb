@@ -10,6 +10,7 @@ def join_nested_strings(arr)
       end
       j += 1
     end
+    i += 1
   end
   
   return newArr.join(" ")
